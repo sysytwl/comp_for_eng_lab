@@ -28,7 +28,7 @@ int main(void) {
 	w = 32; x = 8; y = 10;
 	questionE();
 	printf("Enter A and B:");		/* question F */
-	scanf("%d%d", &a, &b);	/* (for VC only) error:C4996 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.*/
+	scanf("%d%d", &a, &b);
 	printf("A: %d, B: %d\n", a, b);
 	printf("A + B = %d\n", a + b);	/* question G */
 	printf("Enter A, B and C:");	/* question H */
